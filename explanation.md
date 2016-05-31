@@ -8,13 +8,6 @@ In this tutorial we will see what happens when you type google.com in the addres
 
 ##Structure of Browsers
 This contains the main components of a browser. They Include:<br>
-    1. The user interface.<br>
-    2. The browser engine.<br>
-    3. The rendering engine.<br>
-    4. Networking.<br>
-    5. UI backend.<br>
-    6. JavaScript interpreter.<br>
-    7. Data storage.
 
 **1. The User Interface**<br>
 Browser user interfaces have a lot in common with each other. Among the common user interface elements are:
@@ -29,8 +22,8 @@ A web browser engine (sometimes called layout engine or rendering engine) is a p
 
 **3. The Rendering Engine**<br>
 It is responsible for displaying requested content. For example if the requested content is HTML, the rendering engine parses HTML and CSS, and displays the parsed content on the screen.<br>
-**4. Networking**<br>
 
+**4. Networking**<br>
 Used for network calls such as HTTP requests, using different implementations for different platform behind a platform-independent interface.<br>
 
 **5. UI Backend**<br>

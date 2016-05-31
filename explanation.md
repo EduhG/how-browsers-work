@@ -8,13 +8,21 @@ In this tutorial we will see what happens when you type google.com in the addres
 
 ##Structure of Browsers
 This contains the main components of a browser. They Include:<br>
-    _**1. The user interface:**_ This includes the address bar, back/forward button, bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.<br>
-    _**2. The browser engine:**_ Marshals actions between the UI and the rendering engine.<br>
-    _**3. The rendering engine:**_ It is responsible for displaying requested content. For example if the requested content is HTML, the rendering engine parses HTML and CSS, and displays the parsed content on the screen.<br>
-    _**4. Networking:**_ Used for network calls such as HTTP requests, using different implementations for different platform behind a platform-independent interface.<br>
-    _**5. UI backend:**_ Used for drawing basic widgets like combo boxes and windows. This backend exposes a generic interface that is not platform specific. Underneath it uses operating system user interface methods.<br>
-    _**6. JavaScript interpreter:**_ Used to parse and execute JavaScript code.<br>
-    _**7. Data storage:**_ This is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as localStorage, IndexedDB, WebSQL and FileSystem.
+1. _**The user interface:**_ This includes the address bar, back/forward button, bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.
+2. _**The browser engine:**_ Marshals actions between the UI and the rendering engine.
+3. _**The rendering engine:**_ It is responsible for displaying requested content. For example if the requested content is HTML, the rendering engine parses HTML and CSS, and displays the parsed content on the screen.
+4. _**Networking:**_ Used for network calls such as HTTP requests, using different implementations for different platform behind a platform-independent interface.
+5. _**UI backend:**_ Used for drawing basic widgets like combo boxes and windows. This backend exposes a generic interface that is not platform specific. Underneath it uses operating system user interface methods.
+6. _**JavaScript interpreter:**_ Used to parse and execute JavaScript code.
+7. _**Data storage:**_ This is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as localStorage, IndexedDB, WebSQL and FileSystem.
+
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
 
 1. **The User Interface**
 Browser user interfaces have a lot in common with each other. Among the common user interface elements are:

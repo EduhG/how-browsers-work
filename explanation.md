@@ -8,11 +8,11 @@ In this tutorial we will see what happens when you type google.com in the addres
 
 ##Structure of Browsers
 This contains the main components of a browser. They Include:<br>
-1. The user interface.
-2. The browser engine.
-3. The rendering engine.
-4. Networking.
-5. UI backend.
+..1. The user interface.<br>
+..2. The browser engine.<br>
+3. The rendering engine.<br>
+4. Networking.<br>
+5. UI backend.<br>
 6. JavaScript interpreter.<br>
 7. Data storage.
 

@@ -8,13 +8,21 @@ In this tutorial we will see what happens when you type google.com in the addres
 
 ##Structure of Browsers
 This contains the main components of a browser. They Include:<br>
-..1. The user interface.<br>
-..2. The browser engine.<br>
-3. The rendering engine.<br>
-4. Networking.<br>
-5. UI backend.<br>
-6. JavaScript interpreter.<br>
-7. Data storage.
+    1. The user interface.<br>
+    2. The browser engine.<br>
+    3. The rendering engine.<br>
+    4. Networking.<br>
+    5. UI backend.<br>
+    6. JavaScript interpreter.<br>
+    7. Data storage.
+
+**1. The User Interface**<br>
+Browser user interfaces have a lot in common with each other. Among the common user interface elements are:
+1. Address bar for inserting a URI
+2. Back and forward buttons
+3. Bookmarking options
+4. Refresh and stop buttons for refreshing or stopping the loading of current documents
+5. Home button that takes you to your home page
 
 
 1. _**The user interface:**_ This includes the address bar, back/forward button, bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.<br>
@@ -25,13 +33,7 @@ This contains the main components of a browser. They Include:<br>
 6. _**JavaScript interpreter:**_ Used to parse and execute JavaScript code.<br>
 7. _**Data storage:**_ This is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as localStorage, IndexedDB, WebSQL and FileSystem.
 
-**1. The User Interface**<br>
-Browser user interfaces have a lot in common with each other. Among the common user interface elements are:
-1. Address bar for inserting a URI
-2. Back and forward buttons
-3. Bookmarking options
-4. Refresh and stop buttons for refreshing or stopping the loading of current documents
-5. Home button that takes you to your home page
+
 
 **2. The Browser Engine**<br>
 

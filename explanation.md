@@ -16,7 +16,7 @@ This contains the main components of a browser. They Include:<br>
 6. _**JavaScript interpreter:**_ Used to parse and execute JavaScript code.<br>
 7. _**Data storage:**_ This is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as localStorage, IndexedDB, WebSQL and FileSystem.
 
-**1. The User Interface**
+**1. The User Interface**<br>
 Browser user interfaces have a lot in common with each other. Among the common user interface elements are:
 1. Address bar for inserting a URI
 2. Back and forward buttons
@@ -24,17 +24,17 @@ Browser user interfaces have a lot in common with each other. Among the common u
 4. Refresh and stop buttons for refreshing or stopping the loading of current documents
 5. Home button that takes you to your home page
 
-**2. The Browser Engine**
+**2. The Browser Engine**<br>
 
-**3. The Rendering Engine**
+**3. The Rendering Engine**<br>
 
-**4. Networking**
+**4. Networking**<br>
 
-**5. UI Backend**
+**5. UI Backend**<br>
 
-**6. JavaScript Interpreter**
+**6. JavaScript Interpreter**<br>
 
-**7. Data storage**
+**7. Data storage**<br>
 
 ##References
 1. https://en.wikipedia.org/wiki/Web_browser

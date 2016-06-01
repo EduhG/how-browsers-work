@@ -14,6 +14,10 @@ The browser’s main functionality is to fetch the files from the server and to 
 This contains the main components of a browser. They Include.
 
 1. **The User Interface**<br>Browser user interfaces have a lot in common with each other. Among the common user interface elements are:.
+  * Windows 10: Toast
+  * Windows 7-8.1: Balloon (fallback behavior, so lesser support)
+  * OS X: Notification Center
+  * Linux: [libnotify](http://electron.atom.io/docs/v0.36.0/tutorial/desktop-environment-integration/#linux)
 2. Launch `Mattermost` in the unarchived folder.
 3. After first launching, please input name and URL for your Mattermost team. For example, `myteam : https://mattermost.example.com/team`.
 

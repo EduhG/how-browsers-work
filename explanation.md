@@ -11,11 +11,9 @@ In this tutorial we will see what happens when you type google.com in the addres
 The browser’s main functionality is to fetch the files from the server and to display them on the screen. It basically displays html files containing images, PDF, videos, flashes, etc in an ordered layout. A browser is a group of structured codes that performs plenty of tasks to display a webpage on the screen. These codes are separated in to different components according to their tasks performed. The structure of a browser is shown in the below image.
 ![alt text](http://www.engineersgarage.com/sites/default/files/imagecache/Original/wysiwyg_imageupload/28714/Architecture-of-Web-Browser.gif "Structure of Browsers")
 
+This contains the main components of a browser. They Include.
 
-### Installation
-Detailed guides are available at [docs/setup.md](docs/setup.md).
-
-1. Download and unarchive a file from [release page](http://github.com/mattermost/desktop/releases).
+1. **1. The User Interface**<br>Download and unarchive a file from [release page](http://github.com/mattermost/desktop/releases).
 2. Launch `Mattermost` in the unarchived folder.
 3. After first launching, please input name and URL for your Mattermost team. For example, `myteam : https://mattermost.example.com/team`.
 

@@ -12,6 +12,15 @@ The browser’s main functionality is to fetch the files from the server and to 
 ![alt text](http://www.engineersgarage.com/sites/default/files/imagecache/Original/wysiwyg_imageupload/28714/Architecture-of-Web-Browser.gif "Structure of Browsers")
 
 
+### Installation
+Detailed guides are available at [docs/setup.md](docs/setup.md).
+
+1. Download and unarchive a file from [release page](http://github.com/mattermost/desktop/releases).
+2. Launch `Mattermost` in the unarchived folder.
+3. After first launching, please input name and URL for your Mattermost team. For example, `myteam : https://mattermost.example.com/team`.
+
+### Quit
+
 This contains the main components of a browser. They Include:<br>
 
 **1. The User Interface**<br>

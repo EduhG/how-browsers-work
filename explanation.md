@@ -14,12 +14,18 @@ The browser’s main functionality is to fetch the files from the server and to 
 This contains the main components of a browser. They Include.
 
 1. **The User Interface**<br>Browser user interfaces have a lot in common with each other. Among the common user interface elements are:.
-  * Windows 10: Toast
-  * Windows 7-8.1: Balloon (fallback behavior, so lesser support)
-  * OS X: Notification Center
-  * Linux: [libnotify](http://electron.atom.io/docs/v0.36.0/tutorial/desktop-environment-integration/#linux)
-2. Launch `Mattermost` in the unarchived folder.
-3. After first launching, please input name and URL for your Mattermost team. For example, `myteam : https://mattermost.example.com/team`.
+  * Address bar for inserting a URI
+  * Back and forward buttons
+  * Bookmarking options
+  * Refresh and stop buttons for refreshing or stopping the loading of current documents
+  * Home button that takes you to your home page
+2. **The Browser Engine**<br>A web browser engine (sometimes called layout engine or rendering engine) is a program that renders marked up content (such as HTML, XML, image files, etc.) and formatting information (such as CSS, XSL, etc.). It marshals actions between the UI and the rendering engine.
+3. **The Rendering Engine**<br>It is responsible for displaying requested content. For example if the requested content is HTML, the rendering engine parses HTML and CSS, and displays the parsed content on the screen. By default the rendering engine can display HTML and XML documents and images. It can display other types of data via plug-ins or extension; for example, displaying PDF documents using a PDF viewer plug-in. However, in this chapter we will focus on the main use case: displaying HTML and images that are formatted using CSS.
+4. **Networking**<br>Used for network calls such as HTTP requests, using different implementations for different platform behind a platform-independent interface.
+5. **UI Backend**<br>Used for drawing basic widgets like combo boxes and windows. This backend exposes a generic interface that is not platform specific. Underneath it uses operating system user interface methods.
+6. **JavaScript Interpreter**<br>Used to parse and execute JavaScript code.
+7. **Data storage**<br>This is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as localStorage, IndexedDB, WebSQL and FileSystem.
+
 
 ### Quit
 
